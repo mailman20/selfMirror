@@ -1,117 +1,119 @@
 {
-   "token": "INSERT_YOUR_DISCORD_TOKEN_HERE",
+   "token": "MTEwNzgwODU4MTIzMjg5NDA5NA.GLnFJy.5SYV1Ue87rI0I3Z0PuVBm2zlS-c2KVmRqwpk-4",
    "status": "online",
    "log_message": "[<date>] Mirrored <author>'s message from <server>.",
    "mirrors": [
       {
          "channel_ids": [
-            "INSERT_CHANNEL_ID_TO_MIRROR_HERE"
+            "596557441458634767",
+            "596558326511173642"
          ],
          "webhook_urls": [
-            "INSERT_DESTINATION_WEBHOOK_URL_HERE"
+            "https://discord.com/api/webhooks/1110734017189396570/53RaDwzsvMxpD-ZtjsEt7H3hyKERk-250P95m6Q4Ixs5T88Ax26-NwRZpeX0r9BvXkRk",
+            "https://discord.com/api/webhooks/1110748675614969906/O8x3pF4WhIpTCfgAGhLlmTABagRshwh22nQLB7GQ7cOhquELvTlgVP3TvLXJD_75bct-"
          ],
          "ignored_user_ids": [
             "INSERT_USER_ID_NOT_TO_MIRROR_HERE"
-         ],
-         "requirements": {
+          ],
+          "requirements": {
             "min_embeds_count": 0,
             "min_content_length": 0,
             "min_attachments_count": 0
-         },
-         "options": {
+          },
+          "options": {
             "use_webhook_profile": false,
             "remove_attachments": false,
             "mirror_messages_from_bots": true,
             "mirror_reply_messages": true
-         },
-         "replacements": {
+          },
+          "replacements": {
             "content": [
-               {
-                  "replace": "INSERT_TEXT_TO_REPLACE_HERE",
-                  "with": "INSERT_REPLACEMENT_TEXT_HERE"
-               }
+              {
+                "replace": "INSERT_TEXT_TO_REPLACE_HERE",
+                "with": "INSERT_REPLACEMENT_TEXT_HERE"
+              }
             ],
             "embed": {
-               "author": [
-                  {
-                     "replace": "INSERT_AUTHOR_TO_REPLACE_HERE",
-                     "with": "INSERT_REPLACED_AUTHOR_HERE"
-                  }   
-               ],
-               "author_url": [
-                  {
-                     "replace": "INSERT_AUTHOR_URL_TO_REPLACE_HERE",
-                     "with": "INSERT_REPLACED_AUTHOR_URL_HERE"
-                  }   
-               ],
-               "author_icon_url": [
-                  {
-                     "replace": "INSERT_AUTHOR_ICON_URL_TO_REPLACE_HERE",
-                     "with": "INSERT_REPLACED_AUTHOR_ICON_URL_HERE"
-                  }   
-               ],
-               "title": [
-                  {
-                     "replace": "INSERT_TITLE_TO_REPLACE_HERE",
-                     "with": "INSERT_REPLACED_TITLE_HERE"
-                  }
-               ],
-               "description": [
-                  {
-                     "replace": "INSERT_DESCRIPTION_TO_REPLACE_HERE",
-                     "with": "INSERT_REPLACED_DESCRIPTION_HERE"
-                  }
-               ],
-               "url": [
-                  {
-                     "replace": "INSERT_URL_TO_REPLACE_HERE",
-                     "with": "INSERT_REPLACED_URL_HERE"
-                  }
-               ],
-               "color": [
-                  {
-                     "replace": "INSERT_HEX_COLOR_TO_REPLACE_HERE",
-                     "with": "INSERT_REPLACED_HEX_COLOR_HERE"
-                  }
-               ],
-               "field_name": [
-                  {
-                     "replace": "INSERT_FIELD_NAME_TO_REPLACE_HERE",
-                     "with": "INSERT_REPLACED_FIELD_NAME_HERE"
-                  }
-               ],
-               "field_value": [
-                  {
-                     "replace": "INSERT_FIELD_VALUE_TO_REPLACE_HERE",
-                     "with": "INSERT_REPLACED_FIELD_VALUE_HERE"
-                  }
-               ],
-               "image_url": [
-                  {
-                     "replace": "INSERT_IMAGE_URL_TO_REPLACE_HERE",
-                     "with": "INSERT_REPLACED_IMAGE_URL_HERE"
-                  }
-               ],
-               "thumbnail_url": [
-                  {
-                     "replace": "INSERT_THUMBNAIL_URL_TO_REPLACE_HERE",
-                     "with": "INSERT_REPLACED_THUMBNAIL_URL_HERE"
-                  }
-               ],
-               "footer": [
-                  {
-                     "replace": "INSERT_FOOTER_TO_REPLACE_HERE",
-                     "with": "INSERT_REPLACED_FOOTER_HERE"
-                  }
-               ],
-               "footer_icon_url": [
-                  {
-                     "replace": "INSERT_FOOTER_ICON_URL_TO_REPLACE_HERE",
-                     "with": "INSERT_REPLACED_FOOTER_ICON_URL_HERE"
-                  }
-               ]
+              "author": [
+                {
+                  "replace": "INSERT_AUTHOR_TO_REPLACE_HERE",
+                  "with": "INSERT_REPLACED_AUTHOR_HERE"
+                }
+              ],
+              "author_url": [
+                {
+                  "replace": "INSERT_AUTHOR_URL_TO_REPLACE_HERE",
+                  "with": "INSERT_REPLACED_AUTHOR_URL_HERE"
+                }
+              ],
+              "author_icon_url": [
+                {
+                  "replace": "INSERT_AUTHOR_ICON_URL_TO_REPLACE_HERE",
+                  "with": "INSERT_REPLACED_AUTHOR_ICON_URL_HERE"
+                }
+              ],
+              "title": [
+                {
+                  "replace": "INSERT_TITLE_TO_REPLACE_HERE",
+                  "with": "INSERT_REPLACED_TITLE_HERE"
+                }
+              ],
+              "description": [
+                {
+                  "replace": "INSERT_DESCRIPTION_TO_REPLACE_HERE",
+                  "with": "INSERT_REPLACED_DESCRIPTION_HERE"
+                }
+              ],
+              "url": [
+                {
+                  "replace": "INSERT_URL_TO_REPLACE_HERE",
+                  "with": "INSERT_REPLACED_URL_HERE"
+                }
+              ],
+              "color": [
+                {
+                  "replace": "0xFF0000",
+                  "with": "0x00FF00"
+                }
+              ],
+              "field_name": [
+                {
+                  "replace": "INSERT_FIELD_NAME_TO_REPLACE_HERE",
+                  "with": "INSERT_REPLACED_FIELD_NAME_HERE"
+                }
+              ],
+              "field_value": [
+                {
+                  "replace": "INSERT_FIELD_VALUE_TO_REPLACE_HERE",
+                  "with": "INSERT_REPLACED_FIELD_VALUE_HERE"
+                }
+              ],
+              "image_url": [
+                {
+                  "replace": "INSERT_IMAGE_URL_TO_REPLACE_HERE",
+                  "with": "INSERT_REPLACED_IMAGE_URL_HERE"
+                }
+              ],
+              "thumbnail_url": [
+                {
+                  "replace": "INSERT_THUMBNAIL_URL_TO_REPLACE_HERE",
+                  "with": "INSERT_REPLACED_THUMBNAIL_URL_HERE"
+                }
+              ],
+              "footer": [
+                {
+                  "replace": "INSERT_FOOTER_TO_REPLACE_HERE",
+                  "with": "INSERT_REPLACED_FOOTER_HERE"
+                }
+              ],
+              "footer_icon_url": [
+                {
+                  "replace": "INSERT_FOOTER_ICON_URL_TO_REPLACE_HERE",
+                  "with": "INSERT_REPLACED_FOOTER_ICON_URL_HERE"
+                }
+              ]
             }
-         }
-      }
-   ]
-}
+          }
+        }
+      ]
+    }
